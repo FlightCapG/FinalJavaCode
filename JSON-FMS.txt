@@ -1,0 +1,53 @@
+JSON entries
+
+Booking
+
+** post- localhost:9090/booking/register
+
+{
+    "name":"abc",
+    "arrivalTime":"9hr",
+    "noOfPassengers":6,
+    "ticketCost":800,
+    "destinationAirport":"Pune",
+    "sourceAirport":"Mumbai",
+    "dateOfBooking":"11thjan",
+    "timeOfBooking":"9"
+}
+
+**get- localhost:9090/booking/view
+
+
+Flight
+
+** post- localhost:9090/flight/register
+
+{
+    "carrierName":"Empire",
+    "sourceAirport":"Pune",
+    "destinationAirport":"Mumbai",
+    "arrivalTime":"2AM",
+    "departureTime":"3AM",
+    "duration":"7hr",
+    "price":230,
+    "discount":10,
+    "imageName":"Empire.jpg",
+    "about":"Service is good"
+
+}
+
+**get- localhost:9090/flight/cn/Indigo
+
+
+Review
+
+**Post- localhost:9090/app/review
+{
+    "flightId":34,
+    "numberOfStars": 2,
+    "content":"bad"    
+}
+
+**get - localhost:9090/app/by/34
+
+
